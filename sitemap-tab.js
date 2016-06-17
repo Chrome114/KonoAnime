@@ -44,7 +44,7 @@ function showLabels(c) {
     var a = c.feed.category,
         d = "";
     d = "<select id='labelSorter' onchange='changeSort(this.value);'>";
-    d += "<option value='' selected>All Genres</option>";
+    d += "<option value='' selected>Action</option>";
     for (var b = 0; b < a.length; b++) {
         d += "<option value='" + decodeURIComponent(a[b].term) + "'>" + a[b].term.toUpperCase() + "</option>"
     }
